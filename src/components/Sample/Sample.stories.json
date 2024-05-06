@@ -1,0 +1,24 @@
+{
+  "title": "Example/Sample",
+  "parameters": {
+    "server": {
+      "url": "http://localhost:3000/stories",
+      "id": "sample"
+    }
+  },
+  "args": { "color": "red" },
+  "tags": ["autodocs"],
+  "stories": [
+    {
+      "name": "Primary"
+    },
+    {
+      "name": "Secondary",
+      "args": { "color": "blue"}
+    },
+    {
+      "name": "Small",
+      "args": { "color": "green"}
+    }
+  ]
+}

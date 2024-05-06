@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "dev": "bun run --hot src/index.tsx",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "hono": "^3.10.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/addon-links": "^7.5.3",
+    "@storybook/blocks": "^7.5.3",
+    "@storybook/server": "^7.5.3",
+    "@storybook/server-webpack5": "^7.5.3",
+    "bun-types": "^1.0.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.5.3"
+  }
+}
